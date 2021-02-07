@@ -3,9 +3,9 @@ const client = new Discord.Client()
 
 const TOKEN = 'ODA1ODk0Mjk4ODQyNjkzNjcy.YBhhjQ.00QVGaTuznNY2ku71mfpgBs__rk'
 const PREFIX = '!'
-const TRADECHANNEL = '789628822706323516'
-const emeraldID = '807631062519513118'
-const diamondID = '807631027911524372'
+const TRADECHANNEL = '807996560151019570'
+const emeraldID = '808014991428812850'
+const diamondID = '808014991445458944'
 client.once('ready', () => {
     console.log("bot is on")
 })
