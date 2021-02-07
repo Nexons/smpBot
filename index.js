@@ -8,6 +8,7 @@ const emeraldID = '808014991428812850'
 const diamondID = '808014991445458944'
 client.once('ready', () => {
     console.log("bot is on")
+    client.user.setActivity({type: "COMPETING", name: "with prices | !selling !buying"})
 })
 
 client.on('message', async msg => {
