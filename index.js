@@ -1,11 +1,11 @@
 const Discord = require('discord.js')
 const client = new Discord.Client()
 
-const TOKEN = 'ODA1ODk0Mjk4ODQyNjkzNjcy.YBhhjQ.00QVGaTuznNY2ku71mfpgBs__rk'
+const TOKEN = ''
 const PREFIX = '!'
-const TRADECHANNEL = '807996560151019570'
-const emeraldID = '808014991428812850'
-const diamondID = '808014991445458944'
+const TRADECHANNEL = ''
+const emeraldID = ''
+const diamondID = ''
 client.once('ready', () => {
     console.log("bot is on")
     client.user.setActivity({type: "COMPETING", name: "with prices | !selling !buying"})
